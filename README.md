@@ -4,7 +4,7 @@ Semester project done as part of the LTS4 lab at EPFL.
 In progress
 
 Repository structure: 
-
+````
 adversarial_LLM/
 │
 ├── config.ini
@@ -33,3 +33,4 @@ adversarial_LLM/
 │   └── .....parquet
 │
 └── ----
+````
