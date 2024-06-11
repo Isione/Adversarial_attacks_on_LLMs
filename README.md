@@ -27,7 +27,7 @@ adversarial_LLM/
 │            └── validation-00000-of-00001.parquet
 │       └── .gitattributes
 │       └── README.md
-├── adversarial_examples/
+├── adv_samples/
 │   └── .....parquet
 │   └── .....parquet
 │   └── .....parquet
