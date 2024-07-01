@@ -50,3 +50,5 @@ adversarial_LLM/
 │
 └── ----
 ````
+Adversarial attacks are performed on the SST2 validation dataset and sentiment analysis tasks using the Mistral 7B v02 instruct model. 
+Parameters for attacks can be modified in config.ini file.
