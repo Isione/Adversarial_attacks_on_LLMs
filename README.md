@@ -11,22 +11,38 @@ adversarial_LLM/
 ├── .gitignore
 │
 ├── gen_adv_examples/
+│   └── config_loader.py
+│   └── data_processing.py
+│   └── logger.py
 │   └── main.py
-│   └── ....py
-│   └── ....py
-│   └── ....py
-│   └── ....py
-│   └── ....py
-│   └── ....py
-│   └── ....py
+│   └── model_loader.py
+│   └── model_utils.py
+│   └── response_generator.py
+│   └── sentence_modification.py
+│   └── sentiment_analysis.py
+│   └── utils.py
+│   └── logs/
+│       └── ......
+│       └── ......
 ├── datasets/
 │   └── sst2
 │       └── data
 │            └── test-00000-of-00001.parquet
 │            └── train-00000-of-00001.parquet
 │            └── validation-00000-of-00001.parquet
+│            └── sst2_fs_examples.pkl
 │       └── .gitattributes
 │       └── README.md
+├── outputs/
+│   └── final_modified_dataset/
+│       └── ......
+│       └── ......
+│   └── json_info/
+│       └── ......
+│       └── ......
+│   └── csv_info/
+│       └── ......
+│       └── ......
 ├── adv_samples/
 │   └── .....parquet
 │   └── .....parquet
